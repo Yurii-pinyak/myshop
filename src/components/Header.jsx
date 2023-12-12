@@ -8,7 +8,6 @@ import { useSelector } from 'react-redux';
 const Header = () => {
 
     const {totalPrice, cartList} = useSelector(state => state.productList)
-    console.log(totalPrice)
 
     return(
         <div className="header-container">

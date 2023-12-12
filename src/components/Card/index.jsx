@@ -45,7 +45,6 @@ const closeFunc = () => {
     
 
   };
-  console.log(product)
   
   return (
     <>
